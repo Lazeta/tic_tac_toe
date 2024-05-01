@@ -1,11 +1,14 @@
 import './styles/App.css';
-import Square from './Script';
+import './styles/styles.css';
+import Board from './Script';
 
 function App() {
 
   return (
     <div className="App">
-      <Square/>
+      <div className='App-header'>
+        <Board/>
+      </div>
     </div>
   );
 }
