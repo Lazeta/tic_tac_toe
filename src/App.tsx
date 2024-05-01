@@ -1,12 +1,11 @@
-import React from 'react';
-import './styles/App.css';
+// import './styles/App.css';
+import Square from './Script';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+      <Square/>
     </div>
   );
 }
