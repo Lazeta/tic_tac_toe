@@ -1,13 +1,13 @@
 import './styles/App.css';
 import './styles/styles.css';
-import Board from './Script';
+import Game from './Script';
 
 function App() {
 
   return (
     <div className="App">
       <div className='App-header'>
-        <Board/>
+        <Game/>
       </div>
     </div>
   );
